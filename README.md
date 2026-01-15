@@ -1,48 +1,68 @@
-# AZRA-NGL ULTIMATE SYSTEM
+# 🔥 AZRA-NGL ULTIMATE SYSTEM
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-4.5-red" alt="Version">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue" alt="Python">
+  <img src="https://img.shields.io/badge/Platform-Termux%2FLinux-green" alt="Platform">
+  <img src="https://img.shields.io/badge/License-Private-orange" alt="License">
+</p>
 
-![AZRA-NGL Banner](https://img.shields.io/badge/AZRA--NGL-v4.5-red)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-green)
-![License](https://img.shields.io/badge/License-Protected-black)
-
-**Advanced NGL Notification Overload System with Telegram Verification**
-
-</div>
+<p align="center">
+  <strong>Advanced NGL Notification Overload System with Telegram Verification</strong>
+</p>
 
 ## 📋 DAFTAR ISI
-- [📁 Fitur Utama](#-fitur-utama)
-- [⚙️ Prasyarat Sistem](#️-prasyarat-sistem)
-- [📱 Instalasi di Termux](#-instalasi-di-termux)
-- [🐧 Instalasi di Linux](#-instalasi-di-linux)
-- [🚀 Menjalankan Script](#-menjalankan-script)
-- [🔑 Alur Verifikasi](#-alur-verifikasi)
-- [⚡ Mode Serangan](#-mode-serangan)
-- [⚠️ Catatan Penting](#️-catatan-penting)
-- [❓ FAQ](#-faq)
+- [✨ Fitur Utama](#-fitur-utama)
+- [⚡ Prasyarat Sistem](#-prasyarat-sistem)
+- [📱 INSTALASI DI TERMUX](#-instalasi-di-termux)
+- [🐧 INSTALASI DI LINUX](#-instalasi-di-linux)
+- [🚀 CARA MENJALANKAN](#-cara-menjalankan)
+- [🔧 KONFIGURASI TELEGRAM](#-konfigurasi-telegram)
+- [⚠️ PERINGATAN](#️-peringatan)
+- [📞 DUKUNGAN](#-dukungan)
 
-## 📁 FITUR UTAMA
+## ✨ FITUR UTAMA
 
-<div align="center">
+### 🔒 **SISTEM KEAMANAN**
+- ✅ Password terenkripsi multi-layer
+- ✅ Verifikasi admin via Telegram
+- ✅ Inline keyboard untuk approve/reject
+- ✅ Session tracking dengan ID unik
+- ✅ Informasi user lengkap (IP, Hostname, Waktu)
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🔐 **Password Protection** | Password terenkripsi multi-layer | ✅ Active |
-| 📱 **Telegram Verification** | Admin approval via bot Telegram | ✅ Required |
-| ⚡ **Real NGL Attack** | Request langsung ke API NGL | ✅ Working |
-| 🚀 **Multi-Threading** | Hingga 50 thread bersamaan | ✅ Maximum |
-| 🎨 **Colorful UI** | Interface berwarna dengan banner | ✅ Beautiful |
-| 📊 **Real-time Stats** | Live counter dan progress | ✅ Displayed |
-| 🔒 **Extreme Obfuscation** | Code terenkripsi dan tidak terbaca | ✅ Secured |
+### ⚡ **SISTEM ATTACK**
+- ✅ **REAL NGL API requests** (bukan simulasi)
+- ✅ Multi-threading hingga 50 thread
+- ✅ Ultra-fast mode (0.001 detik delay)
+- ✅ Target notification overload
+- ✅ Real-time progress counter
+- ✅ Device crash potential
 
-</div>
+### 🎨 **TAMPILAN USER**
+- ✅ Colorful terminal interface
+- ✅ Banner AZRA-NGL yang keren
+- ✅ Progress bar real-time
+- ✅ Konfigurasi interaktif
+- ✅ Status update berwarna
 
-## ⚙️ PRASYARAT SISTEM
+## ⚡ PRASYARAT SISTEM
 
-### **Python 3.8 atau lebih tinggi**
+### **MINIMAL REQUIREMENTS:**
+- Python 3.8 atau lebih tinggi
+- Koneksi internet stabil
+- Akun Telegram untuk admin
+- Storage 50MB free space
+
+### **SUPPORTED PLATFORMS:**
+- ✅ Termux (Android)
+- ✅ Linux (Ubuntu, Debian, Kali)
+- ✅ MacOS (via Terminal)
+- ✅ Windows (via WSL/Linux Subsystem)
+
+---
+
+## 📱 INSTALASI DI TERMUX
+
+### **STEP 1: Update & Upgrade Termux**
 ```bash
-# Cek versi Python
-python --version
-# atau
-python3 --version
+pkg update && pkg upgrade -y
